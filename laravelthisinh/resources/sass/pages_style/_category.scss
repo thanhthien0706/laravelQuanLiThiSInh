@@ -1,0 +1,35 @@
+.box_master_category {
+    .alert{
+        position: fixed;
+        z-index: 222;
+        top: 100px;
+        right: -999px;
+        transition: 0.5s;
+    }
+    // #mainConfirm{
+    //     position: fixed;
+    //     top: 0;
+    //     left: 50%;
+    //     transform: translateX(-50%);
+    //     z-index: 2222;
+    //     .box_content_confirm{
+    //         background-color: #f2f2f2;
+    //         width: 500px;
+    //         height: 300px;
+    //     }
+    // }
+    .box_main_left {
+    }
+    .box_main_right {
+        .box_main_category {
+            a {
+                text-decoration: none;
+            }
+            .box_pagination_main {
+                .pagination {
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}
